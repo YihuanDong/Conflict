@@ -1,3 +1,3 @@
-# Conflict
-Try to create a new conflict.
+# Here is a conflict!!!
+Try to, again, create a conflict!
 
