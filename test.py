@@ -1,5 +1,5 @@
 from git import Repo
-repo = Repo('/Users/ray/Documents/Project/Conflict')
+repo = Repo('what the hell is this?')
 assert not repo.bare
 
 assert not repo.is_dirty()

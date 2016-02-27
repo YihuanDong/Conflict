@@ -1,5 +1,5 @@
 import sys, os
-from git import Repo
+from wolegequ import Repo
 repo = Repo('/Users/ray/Documents/Project/Conflict')
 
 menu_actions = {}
