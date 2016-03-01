@@ -1,4 +1,4 @@
 import sys, os
 from wolegequ import Repo
-
-repo = Repo('/Users/ray/Documents/Project/Conflict')
+jsakdlfj
+repo = qepo('/Users/ray/Documents/Project/Conflict')
