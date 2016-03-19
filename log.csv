@@ -44,3 +44,420 @@ to read about a specific subcommand or concept.
 ",,no
 decision_tree,19 Mar 2016 02:57:06,quit,False,,,,,no
 decision_tree,19 Mar 2016 12:59:30,quit,False,,,,,yes
+decision_tree,19 Mar 2016 17:56:48,['q'],,,,,,no
+decision_tree,19 Mar 2016 18:00:30,['q'],,,,,,no
+decision_tree,19 Mar 2016 18:03:58,"['git', 'status']",,,False,"# On branch master
+# Changes to be committed:
+#   (use ""git reset HEAD <file>..."" to unstage)
+#
+#	deleted:    t.py
+#
+# Changes not staged for commit:
+#   (use ""git add <file>..."" to update what will be committed)
+#   (use ""git checkout -- <file>..."" to discard changes in working directory)
+#
+#	modified:   log.csv
+#
+# Untracked files:
+#   (use ""git add <file>..."" to include in what will be committed)
+#
+#	t.py
+",,
+decision_tree,19 Mar 2016 18:04:01,"['git', 'log']",,,False,"commit f8fb5844417278b3592b74fffea95df77d771508
+Author: Gerardo <geprcm689@hotmail.com>
+Date:   Sat Mar 19 12:45:23 2016 -0400
+
+    test single quote
+
+commit 6d74c3ad4ff50aa6f8510480eeebc5f73b419523
+Author: Gerardo <geprcm689@hotmail.com>
+Date:   Fri Mar 18 23:37:43 2016 -0400
+
+    message
+
+commit d46cf0dc623549ae91119afb163ae90ad16b8dcd
+Author: Gerardo <geprcm689@hotmail.com>
+Date:   Fri Mar 18 23:24:03 2016 -0400
+
+    commit testing file
+
+commit 7e88895eb2f726b4200969406897fd4e2516e88f
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Tue Mar 1 12:09:50 2016 -0500
+
+    create conflict;
+    ""
+
+commit bef89bac98ea3bce6fcc073e7d5a0d45bdc131c4
+Merge: 3b6b82c 3223870
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Tue Mar 1 12:02:44 2016 -0500
+
+    Solved Conflict
+
+commit 3b6b82c69c3f5e1cf4b4b9758740f61088cd147b
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Sat Feb 27 17:48:37 2016 -0500
+
+    Try to create conflict again
+
+commit 3223870142a80440a0c18382f75b43b54f0df8b0
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Sat Feb 27 17:47:47 2016 -0500
+
+    create conflict
+
+commit d58afb570b4bbe31f7328e35256ceff8eda8079b
+Merge: 120524e ca93ba5
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Sat Feb 27 17:43:20 2016 -0500
+
+    Resolved conflict
+
+commit 120524edf7f54bd15cda7f90638e58f7063b09d6
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Wed Feb 24 15:50:08 2016 -0500
+
+    changed README.md to create a conflict
+
+commit ca93ba550bdf20d06a9ffe4e0dbfa2a920580ce8
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Wed Feb 24 15:48:59 2016 -0500
+
+    revise read
+
+commit 290cc5361b98ff1146328be742dd94adfdcc93be
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Wed Feb 24 15:47:24 2016 -0500
+
+    teset
+    
+    test
+
+commit e2a656bc9535939cd5bd173f15d6c2fa549a44bd
+Merge: 5a09dee a28f799
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Thu Feb 18 12:57:34 2016 -0500
+
+    Merge branch 'master' of https://github.com/YihuanDong/Conflict
+
+commit 5a09dee0e976dbea8f3275fa188a6bdf40edf3cc
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Thu Feb 18 12:56:56 2016 -0500
+
+    added ignore file
+
+commit a28f79906b1c3f32b7af2052faf44615616ed18f
+Merge: ae0249d 1787207
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Tue Feb 9 18:41:08 2016 -0500
+
+    update file
+
+commit ae0249d27ed88761c39e8cae1fcd8146c98a720f
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Tue Feb 9 18:40:07 2016 -0500
+
+    python menu
+
+commit 1787207eeef42ced55fff36f7de6f026166bce84
+Merge: 3f952af d71c7e2
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Mon Feb 8 15:13:53 2016 -0500
+
+    Resolved conflict in README.md
+
+commit 3f952af1bf71766b5e1c957c3c08e5152a17a302
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Mon Feb 8 15:07:49 2016 -0500
+
+    Changed the first line of Readme.md
+
+commit d71c7e2ca1aebc6d7adf209764a622cca18e65e6
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Mon Feb 8 15:06:42 2016 -0500
+
+    create
+
+commit 676e5fe4164db754ae36f0dad189cda47d4bbc4b
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Mon Feb 8 14:57:21 2016 -0500
+
+    Initial commit
+",,
+decision_tree,19 Mar 2016 18:04:09,"['git', 'pull']",,,False,"Already up-to-date.
+",,
+decision_tree,19 Mar 2016 18:12:01,['quit'],,,,,,yes
+decision_tree,19 Mar 2016 18:16:58,"['git', 'status']",True,status,False,"# On branch master
+# Changes to be committed:
+#   (use ""git reset HEAD <file>..."" to unstage)
+#
+#	deleted:    t.py
+#
+# Changes not staged for commit:
+#   (use ""git add <file>..."" to update what will be committed)
+#   (use ""git checkout -- <file>..."" to discard changes in working directory)
+#
+#	modified:   log.csv
+#
+# Untracked files:
+#   (use ""git add <file>..."" to include in what will be committed)
+#
+#	t.py
+",,
+decision_tree,19 Mar 2016 18:17:04,"['git', 'log']",True,log,False,"commit f8fb5844417278b3592b74fffea95df77d771508
+Author: Gerardo <geprcm689@hotmail.com>
+Date:   Sat Mar 19 12:45:23 2016 -0400
+
+    test single quote
+
+commit 6d74c3ad4ff50aa6f8510480eeebc5f73b419523
+Author: Gerardo <geprcm689@hotmail.com>
+Date:   Fri Mar 18 23:37:43 2016 -0400
+
+    message
+
+commit d46cf0dc623549ae91119afb163ae90ad16b8dcd
+Author: Gerardo <geprcm689@hotmail.com>
+Date:   Fri Mar 18 23:24:03 2016 -0400
+
+    commit testing file
+
+commit 7e88895eb2f726b4200969406897fd4e2516e88f
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Tue Mar 1 12:09:50 2016 -0500
+
+    create conflict;
+    ""
+
+commit bef89bac98ea3bce6fcc073e7d5a0d45bdc131c4
+Merge: 3b6b82c 3223870
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Tue Mar 1 12:02:44 2016 -0500
+
+    Solved Conflict
+
+commit 3b6b82c69c3f5e1cf4b4b9758740f61088cd147b
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Sat Feb 27 17:48:37 2016 -0500
+
+    Try to create conflict again
+
+commit 3223870142a80440a0c18382f75b43b54f0df8b0
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Sat Feb 27 17:47:47 2016 -0500
+
+    create conflict
+
+commit d58afb570b4bbe31f7328e35256ceff8eda8079b
+Merge: 120524e ca93ba5
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Sat Feb 27 17:43:20 2016 -0500
+
+    Resolved conflict
+
+commit 120524edf7f54bd15cda7f90638e58f7063b09d6
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Wed Feb 24 15:50:08 2016 -0500
+
+    changed README.md to create a conflict
+
+commit ca93ba550bdf20d06a9ffe4e0dbfa2a920580ce8
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Wed Feb 24 15:48:59 2016 -0500
+
+    revise read
+
+commit 290cc5361b98ff1146328be742dd94adfdcc93be
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Wed Feb 24 15:47:24 2016 -0500
+
+    teset
+    
+    test
+
+commit e2a656bc9535939cd5bd173f15d6c2fa549a44bd
+Merge: 5a09dee a28f799
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Thu Feb 18 12:57:34 2016 -0500
+
+    Merge branch 'master' of https://github.com/YihuanDong/Conflict
+
+commit 5a09dee0e976dbea8f3275fa188a6bdf40edf3cc
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Thu Feb 18 12:56:56 2016 -0500
+
+    added ignore file
+
+commit a28f79906b1c3f32b7af2052faf44615616ed18f
+Merge: ae0249d 1787207
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Tue Feb 9 18:41:08 2016 -0500
+
+    update file
+
+commit ae0249d27ed88761c39e8cae1fcd8146c98a720f
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Tue Feb 9 18:40:07 2016 -0500
+
+    python menu
+
+commit 1787207eeef42ced55fff36f7de6f026166bce84
+Merge: 3f952af d71c7e2
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Mon Feb 8 15:13:53 2016 -0500
+
+    Resolved conflict in README.md
+
+commit 3f952af1bf71766b5e1c957c3c08e5152a17a302
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Mon Feb 8 15:07:49 2016 -0500
+
+    Changed the first line of Readme.md
+
+commit d71c7e2ca1aebc6d7adf209764a622cca18e65e6
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Mon Feb 8 15:06:42 2016 -0500
+
+    create
+
+commit 676e5fe4164db754ae36f0dad189cda47d4bbc4b
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Mon Feb 8 14:57:21 2016 -0500
+
+    Initial commit
+",,
+decision_tree,19 Mar 2016 18:17:06,"['git', 'pull']",True,pull,False,"Already up-to-date.
+",,
+decision_tree,19 Mar 2016 18:17:12,"['git', 'status']",True,status,False,"# On branch master
+# Changes to be committed:
+#   (use ""git reset HEAD <file>..."" to unstage)
+#
+#	deleted:    t.py
+#
+# Changes not staged for commit:
+#   (use ""git add <file>..."" to update what will be committed)
+#   (use ""git checkout -- <file>..."" to discard changes in working directory)
+#
+#	modified:   log.csv
+#
+# Untracked files:
+#   (use ""git add <file>..."" to include in what will be committed)
+#
+#	t.py
+",,
+decision_tree,19 Mar 2016 18:22:00,['quit'],False,,,,,yes
+decision_tree,19 Mar 2016 18:57:49,"['git', 'ls']",True,ls,True,"git: 'ls' is not a git command. See 'git --help'.
+
+Did you mean this?
+	log
+",,yes
+decision_tree,19 Mar 2016 19:01:33,"['git', 'status']",True,status,False,"# On branch master
+# Changes to be committed:
+#   (use ""git reset HEAD <file>..."" to unstage)
+#
+#	deleted:    t.py
+#
+# Changes not staged for commit:
+#   (use ""git add <file>..."" to update what will be committed)
+#   (use ""git checkout -- <file>..."" to discard changes in working directory)
+#
+#	modified:   log.csv
+#
+# Untracked files:
+#   (use ""git add <file>..."" to include in what will be committed)
+#
+#	t.py
+",,
+decision_tree,19 Mar 2016 19:01:51,"['git', 'add', 't.py']",True,add,False,,,
+decision_tree,19 Mar 2016 19:01:59,"['git', 'status']",True,status,False,"# On branch master
+# Changes to be committed:
+#   (use ""git reset HEAD <file>..."" to unstage)
+#
+#	modified:   t.py
+#
+# Changes not staged for commit:
+#   (use ""git add <file>..."" to update what will be committed)
+#   (use ""git checkout -- <file>..."" to discard changes in working directory)
+#
+#	modified:   log.csv
+#
+",,
+decision_tree,19 Mar 2016 19:02:16,"['git', 'commit', '-m', '""changed t.py"" ']",True,commit,False,"[master f2e501f] ""changed t.py""
+ 1 file changed, 54 insertions(+), 12 deletions(-)
+ rewrite t.py (82%)
+",,
+decision_tree,19 Mar 2016 19:02:25,"['git', 'push']",True,push,False,"warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+To https://github.com/YihuanDong/Conflict.git
+   f8fb584..f2e501f  master -> master
+",,
+decision_tree,19 Mar 2016 19:03:02,"['git', 'status']",True,status,False,"# On branch master
+# Changes not staged for commit:
+#   (use ""git add <file>..."" to update what will be committed)
+#   (use ""git checkout -- <file>..."" to discard changes in working directory)
+#
+#	modified:   log.csv
+#
+no changes added to commit (use ""git add"" and/or ""git commit -a"")
+",,
+decision_tree,19 Mar 2016 19:03:28,['quit'],False,,,,,yes
+decision_tree,19 Mar 2016 19:09:15,"['git', 'branch']",True,branch,False,"* master
+",,
+decision_tree,19 Mar 2016 19:09:21,"['git', 'branch', '-A']",True,branch,True,"error: unknown switch `A'
+usage: git branch [options] [-r | -a] [--merged | --no-merged]
+   or: git branch [options] [-l] [-f] <branchname> [<start-point>]
+   or: git branch [options] [-r] (-d | -D) <branchname>...
+   or: git branch [options] (-m | -M) [<oldbranch>] <newbranch>
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    --set-upstream        change upstream info
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      Unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    --list                list branch names
+    -l, --create-reflog   create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation (when already exists)
+    --no-merged <commit>  print only not merged branches
+    --merged <commit>     print only merged branches
+    --column[=<style>]    list branches in columns
+
+",,no
+decision_tree,19 Mar 2016 19:09:49,"['git', 'branch', '-a']",True,branch,False,"* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  remotes/origin/test
+",,
+decision_tree,19 Mar 2016 19:09:56,"['git', 'checkout', 'test']",True,checkout,True,"error: Your local changes to the following files would be overwritten by checkout:
+	log.csv
+Please, commit your changes or stash them before you can switch branches.
+Aborting
+",False,no
+decision_tree,19 Mar 2016 19:10:36,['quit'],False,,,,,no
