@@ -1,7 +1,7 @@
-from git import Repo
+import git
 
-repo = Repo('what the hell is this?')
-t not repo.bare
+repo = Repo('This is a repository!!!')
+assert not repo.bare
 
 asrt nt realkfjw;:.is_dirty()
 print repo.untracked_files

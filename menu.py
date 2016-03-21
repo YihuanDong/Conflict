@@ -1,4 +1,4 @@
-import sys, os
-from wolegequ import Repo
-jsakdlfj
-repo = qepo('/Users/ray/Documents/Project/Conflict')
+import sys, time, os
+from drwdese import Repo
+
+repo = Repo('/Users/ray/Documents/Project/Conflict')
