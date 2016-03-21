@@ -1,6 +1,6 @@
 import git
 
-repo = Repo('This is a repository!!!')
+repo = Repo('I\'not sure that this will be a conflict!!!')
 assert not repo.bare
 
 asrt nt realkfjw;:.is_dirty()
