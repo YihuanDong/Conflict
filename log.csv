@@ -1,0 +1,519 @@
+tool,time,userCmd,isGitCommand,gitCommand,isError,result,hasSolution,isSatisfy
+shell,3/16/2016 2:19,git status,TRUE,status,FALSE,"On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commit each, respectively.
+  (use ""git pull"" to merge the remote branch into yours)
+You have unmerged paths.
+  (fix conflicts and run ""git commit"")
+
+Changes to be committed:
+
+	modified:   README.md
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+
+	both modified:   menu.py
+	both modified:   test.py
+
+Untracked files:
+  (use ""git add <file>..."" to include in what will be committed)
+
+	log.csv
+
+",,
+shell,3/16/2016 2:20,git log,TRUE,log,FALSE,"commit c8ef83e1320b6a819483bf413df83695f3e1c2ae
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Tue Mar 1 12:10:52 2016 -0500
+
+    edited
+
+commit bef89bac98ea3bce6fcc073e7d5a0d45bdc131c4
+Merge: 3b6b82c 3223870
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Tue Mar 1 12:02:44 2016 -0500
+
+    Solved Conflict
+
+commit 3b6b82c69c3f5e1cf4b4b9758740f61088cd147b
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Sat Feb 27 17:48:37 2016 -0500
+
+    Try to create conflict again
+
+commit 3223870142a80440a0c18382f75b43b54f0df8b0
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Sat Feb 27 17:47:47 2016 -0500
+
+    create conflict
+
+commit d58afb570b4bbe31f7328e35256ceff8eda8079b
+Merge: 120524e ca93ba5
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Sat Feb 27 17:43:20 2016 -0500
+
+    Resolved conflict
+
+commit 120524edf7f54bd15cda7f90638e58f7063b09d6
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Wed Feb 24 15:50:08 2016 -0500
+
+    changed README.md to create a conflict
+
+commit ca93ba550bdf20d06a9ffe4e0dbfa2a920580ce8
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Wed Feb 24 15:48:59 2016 -0500
+
+    revise read
+
+commit 290cc5361b98ff1146328be742dd94adfdcc93be
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Wed Feb 24 15:47:24 2016 -0500
+
+    teset
+    
+    test
+
+commit e2a656bc9535939cd5bd173f15d6c2fa549a44bd
+Merge: 5a09dee a28f799
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Thu Feb 18 12:57:34 2016 -0500
+
+    Merge branch 'master' of https://github.com/YihuanDong/Conflict
+
+commit 5a09dee0e976dbea8f3275fa188a6bdf40edf3cc
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Thu Feb 18 12:56:56 2016 -0500
+
+    added ignore file
+
+commit a28f79906b1c3f32b7af2052faf44615616ed18f
+Merge: ae0249d 1787207
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Tue Feb 9 18:41:08 2016 -0500
+
+    update file
+
+commit ae0249d27ed88761c39e8cae1fcd8146c98a720f
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Tue Feb 9 18:40:07 2016 -0500
+
+    python menu
+
+commit 1787207eeef42ced55fff36f7de6f026166bce84
+Merge: 3f952af d71c7e2
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Mon Feb 8 15:13:53 2016 -0500
+
+    Resolved conflict in README.md
+
+commit 3f952af1bf71766b5e1c957c3c08e5152a17a302
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Mon Feb 8 15:07:49 2016 -0500
+
+    Changed the first line of Readme.md
+
+commit d71c7e2ca1aebc6d7adf209764a622cca18e65e6
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Mon Feb 8 15:06:42 2016 -0500
+
+    create
+
+commit 676e5fe4164db754ae36f0dad189cda47d4bbc4b
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Mon Feb 8 14:57:21 2016 -0500
+
+    Initial commit
+",,
+shell,3/16/2016 2:20,quit,FALSE,,,,,
+decision_tree,3/16/2016 2:28,git status,TRUE,status,FALSE,"On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commit each, respectively.
+  (use ""git pull"" to merge the remote branch into yours)
+You have unmerged paths.
+  (fix conflicts and run ""git commit"")
+
+Changes to be committed:
+
+	modified:   README.md
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+
+	both modified:   menu.py
+	both modified:   test.py
+
+Untracked files:
+  (use ""git add <file>..."" to include in what will be committed)
+
+	log.csv
+
+",,
+decision_tree,3/16/2016 2:28,git pull,TRUE,pull,TRUE,"M	README.md
+U	menu.py
+U	test.py
+Pull is not possible because you have unmerged files.
+Please, fix them up in the work tree, and then use 'git add/rm <file>'
+as appropriate to mark resolution and make a commit.
+",TRUE,yes
+decision_tree,3/16/2016 2:28,git quit,TRUE,quit,TRUE,"git: 'quit' is not a git command. See 'git --help'.
+
+Did you mean this?
+	init
+",,no
+decision_tree,3/16/2016 2:29,quit,FALSE,,,,,yes
+shell,16 Mar 2016 17:46:59,git status,True,status,False,"On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commit each, respectively.
+  (use ""git pull"" to merge the remote branch into yours)
+You have unmerged paths.
+  (fix conflicts and run ""git commit"")
+
+Changes to be committed:
+
+	modified:   README.md
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+
+	both modified:   menu.py
+	both modified:   test.py
+
+Untracked files:
+  (use ""git add <file>..."" to include in what will be committed)
+
+	log.csv
+
+",,
+shell,16 Mar 2016 17:47:03,git log,True,log,False,"commit c8ef83e1320b6a819483bf413df83695f3e1c2ae
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Tue Mar 1 12:10:52 2016 -0500
+
+    edited
+
+commit bef89bac98ea3bce6fcc073e7d5a0d45bdc131c4
+Merge: 3b6b82c 3223870
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Tue Mar 1 12:02:44 2016 -0500
+
+    Solved Conflict
+
+commit 3b6b82c69c3f5e1cf4b4b9758740f61088cd147b
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Sat Feb 27 17:48:37 2016 -0500
+
+    Try to create conflict again
+
+commit 3223870142a80440a0c18382f75b43b54f0df8b0
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Sat Feb 27 17:47:47 2016 -0500
+
+    create conflict
+
+commit d58afb570b4bbe31f7328e35256ceff8eda8079b
+Merge: 120524e ca93ba5
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Sat Feb 27 17:43:20 2016 -0500
+
+    Resolved conflict
+
+commit 120524edf7f54bd15cda7f90638e58f7063b09d6
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Wed Feb 24 15:50:08 2016 -0500
+
+    changed README.md to create a conflict
+
+commit ca93ba550bdf20d06a9ffe4e0dbfa2a920580ce8
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Wed Feb 24 15:48:59 2016 -0500
+
+    revise read
+
+commit 290cc5361b98ff1146328be742dd94adfdcc93be
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Wed Feb 24 15:47:24 2016 -0500
+
+    teset
+    
+    test
+
+commit e2a656bc9535939cd5bd173f15d6c2fa549a44bd
+Merge: 5a09dee a28f799
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Thu Feb 18 12:57:34 2016 -0500
+
+    Merge branch 'master' of https://github.com/YihuanDong/Conflict
+
+commit 5a09dee0e976dbea8f3275fa188a6bdf40edf3cc
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Thu Feb 18 12:56:56 2016 -0500
+
+    added ignore file
+
+commit a28f79906b1c3f32b7af2052faf44615616ed18f
+Merge: ae0249d 1787207
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Tue Feb 9 18:41:08 2016 -0500
+
+    update file
+
+commit ae0249d27ed88761c39e8cae1fcd8146c98a720f
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Tue Feb 9 18:40:07 2016 -0500
+
+    python menu
+
+commit 1787207eeef42ced55fff36f7de6f026166bce84
+Merge: 3f952af d71c7e2
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Mon Feb 8 15:13:53 2016 -0500
+
+    Resolved conflict in README.md
+
+commit 3f952af1bf71766b5e1c957c3c08e5152a17a302
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Mon Feb 8 15:07:49 2016 -0500
+
+    Changed the first line of Readme.md
+
+commit d71c7e2ca1aebc6d7adf209764a622cca18e65e6
+Author: boyzhirui <zhirui1992@gmail.com>
+Date:   Mon Feb 8 15:06:42 2016 -0500
+
+    create
+
+commit 676e5fe4164db754ae36f0dad189cda47d4bbc4b
+Author: Yihuan Dong <ydong2@ncsu.edu>
+Date:   Mon Feb 8 14:57:21 2016 -0500
+
+    Initial commit
+",,
+shell,16 Mar 2016 17:47:04,git diff,True,diff,False,"diff --cc menu.py
+index 8836289,a99cc9e..0000000
+--- a/menu.py
++++ b/menu.py
+@@@ -1,4 -1,4 +1,11 @@@
+++<<<<<<< HEAD
+ +import sys, time, os
+ +from drwdese import Repo
+ +
+ +repo = Repo('/Users/ray/Documents/Project/Conflict')
+++=======
++ import sys, os
++ from wolegequ import Repo
++ jsakdlfj
++ repo = qepo('/Users/ray/Documents/Project/Conflict')
+++>>>>>>> 7e88895eb2f726b4200969406897fd4e2516e88f
+diff --cc test.py
+index 7545c70,f0397a9..0000000
+--- a/test.py
++++ b/test.py
+@@@ -1,9 -1,9 +1,14 @@@
+ -from git import Repo
+ +import git
+  
+++<<<<<<< HEAD
+ +repo = Repo('This is a repository!!!')
+ +assert not repo.bare
+++=======
++ repo = Repo('what the hell is this?')
++ t not repo.bare
+++>>>>>>> 7e88895eb2f726b4200969406897fd4e2516e88f
+  
+- assert not repo.is_dirty()
++ asrt nt realkfjw;:.is_dirty()
+  print repo.untracked_files
+  
+  
+",,
+shell,16 Mar 2016 17:47:09,quit,False,,,,,
+web_search,16 Mar 2016 17:57:48,git status,True,status,False,"On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commit each, respectively.
+  (use ""git pull"" to merge the remote branch into yours)
+You have unmerged paths.
+  (fix conflicts and run ""git commit"")
+
+Changes to be committed:
+
+	modified:   README.md
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+
+	both modified:   menu.py
+	both modified:   test.py
+
+Untracked files:
+  (use ""git add <file>..."" to include in what will be committed)
+
+	log.csv
+
+",,
+web_search,16 Mar 2016 17:57:53,git diff,True,diff,False,"diff --cc menu.py
+index 8836289,a99cc9e..0000000
+--- a/menu.py
++++ b/menu.py
+@@@ -1,4 -1,4 +1,11 @@@
+++<<<<<<< HEAD
+ +import sys, time, os
+ +from drwdese import Repo
+ +
+ +repo = Repo('/Users/ray/Documents/Project/Conflict')
+++=======
++ import sys, os
++ from wolegequ import Repo
++ jsakdlfj
++ repo = qepo('/Users/ray/Documents/Project/Conflict')
+++>>>>>>> 7e88895eb2f726b4200969406897fd4e2516e88f
+diff --cc test.py
+index 7545c70,f0397a9..0000000
+--- a/test.py
++++ b/test.py
+@@@ -1,9 -1,9 +1,14 @@@
+ -from git import Repo
+ +import git
+  
+++<<<<<<< HEAD
+ +repo = Repo('This is a repository!!!')
+ +assert not repo.bare
+++=======
++ repo = Repo('what the hell is this?')
++ t not repo.bare
+++>>>>>>> 7e88895eb2f726b4200969406897fd4e2516e88f
+  
+- assert not repo.is_dirty()
++ asrt nt realkfjw;:.is_dirty()
+  print repo.untracked_files
+  
+  
+",,
+web_search,16 Mar 2016 17:57:55,quit,False,,,,,
+email,16 Mar 2016 17:58:27,git status,True,status,False,"On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commit each, respectively.
+  (use ""git pull"" to merge the remote branch into yours)
+You have unmerged paths.
+  (fix conflicts and run ""git commit"")
+
+Changes to be committed:
+
+	modified:   README.md
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+
+	both modified:   menu.py
+	both modified:   test.py
+
+Untracked files:
+  (use ""git add <file>..."" to include in what will be committed)
+
+	log.csv
+
+",,
+email,16 Mar 2016 17:58:29,git diff,True,diff,False,"diff --cc menu.py
+index 8836289,a99cc9e..0000000
+--- a/menu.py
++++ b/menu.py
+@@@ -1,4 -1,4 +1,11 @@@
+++<<<<<<< HEAD
+ +import sys, time, os
+ +from drwdese import Repo
+ +
+ +repo = Repo('/Users/ray/Documents/Project/Conflict')
+++=======
++ import sys, os
++ from wolegequ import Repo
++ jsakdlfj
++ repo = qepo('/Users/ray/Documents/Project/Conflict')
+++>>>>>>> 7e88895eb2f726b4200969406897fd4e2516e88f
+diff --cc test.py
+index 7545c70,f0397a9..0000000
+--- a/test.py
++++ b/test.py
+@@@ -1,9 -1,9 +1,14 @@@
+ -from git import Repo
+ +import git
+  
+++<<<<<<< HEAD
+ +repo = Repo('This is a repository!!!')
+ +assert not repo.bare
+++=======
++ repo = Repo('what the hell is this?')
++ t not repo.bare
+++>>>>>>> 7e88895eb2f726b4200969406897fd4e2516e88f
+  
+- assert not repo.is_dirty()
++ asrt nt realkfjw;:.is_dirty()
+  print repo.untracked_files
+  
+  
+",,
+email,16 Mar 2016 17:58:30,quit,False,,,,,
+decision_tree,17 Mar 2016 15:27:13,git add read.txt,True,add,True,"The following paths are ignored by one of your .gitignore files:
+read.txt
+Use -f if you really want to add them.
+",True,yes
+decision_tree,17 Mar 2016 15:27:40,quit,False,,,,,yes
+decision_tree,17 Mar 2016 17:42:12,git branch,True,branch,False,"* master
+",,
+decision_tree,17 Mar 2016 17:42:18,git checkout test,True,checkout,True,"error: pathspec 'test' did not match any file(s) known to git.
+",False,no
+decision_tree,17 Mar 2016 17:42:35,git branch -a,True,branch,False,"* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+",,
+decision_tree,17 Mar 2016 18:02:24,quit,False,,,,,yes
+decision_tree,17 Mar 2016 18:02:36,git checkout test,True,checkout,True,"error: pathspec 'test' did not match any file(s) known to git.
+",False,no
+decision_tree,17 Mar 2016 18:03:34,quit,False,,,,,no
+decision_tree,17 Mar 2016 18:03:45,git checkout test,True,checkout,True,"error: pathspec 'test' did not match any file(s) known to git.
+",True,yes
+decision_tree,17 Mar 2016 18:12:01,quit,False,,,,,yes
+decision_tree,17 Mar 2016 18:12:09,git checkout test,True,checkout,True,"error: pathspec 'test' did not match any file(s) known to git.
+",True,yes
+decision_tree,17 Mar 2016 18:15:53,quit,False,,,,,yes
+decision_tree,17 Mar 2016 21:38:23,git status,True,status,False,"On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commit each, respectively.
+  (use ""git pull"" to merge the remote branch into yours)
+You have unmerged paths.
+  (fix conflicts and run ""git commit"")
+
+Changes to be committed:
+
+	modified:   README.md
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+
+	both modified:   menu.py
+	both modified:   test.py
+
+Untracked files:
+  (use ""git add <file>..."" to include in what will be committed)
+
+	log.csv
+
+",,
+decision_tree,17 Mar 2016 21:38:31,git checkout test,True,checkout,True,"error: pathspec 'test' did not match any file(s) known to git.
+",True,yes
+decision_tree,17 Mar 2016 21:38:37,quit,False,,,,,yes
+decision_tree,17 Mar 2016 23:41:17,"git commit -m ""test commit""",True,commit,True,"error: commit is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+U	menu.py
+U	test.py
+fatal: Exiting because of an unresolved conflict.
+",False,yes
+decision_tree,18 Mar 2016 01:13:58,quit,False,,,,,yes
+decision_tree,18 Mar 2016 01:14:05,"git commit -m ""test commit""",True,commit,True,"error: commit is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+U	menu.py
+U	test.py
+fatal: Exiting because of an unresolved conflict.
+",True,yes
+decision_tree,18 Mar 2016 01:14:34,quit,False,,,,,yes
+decision_tree,18 Mar 2016 17:58:04,quit,False,,,,,yes
