@@ -286,48 +286,7 @@ commit 676e5fe4164db754ae36f0dad189cda47d4bbc4b
 Author: Yihuan Dong <ydong2@ncsu.edu>
 Date:   Mon Feb 8 14:57:21 2016 -0500
 
-    Initial commit
-",,
-shell,16 Mar 2016 17:47:04,git diff,True,diff,False,"diff --cc menu.py
-index 8836289,a99cc9e..0000000
---- a/menu.py
-+++ b/menu.py
-@@@ -1,4 -1,4 +1,11 @@@
-++<<<<<<< HEAD
- +import sys, time, os
- +from drwdese import Repo
- +
- +repo = Repo('/Users/ray/Documents/Project/Conflict')
-++=======
-+ import sys, os
-+ from wolegequ import Repo
-+ jsakdlfj
-+ repo = qepo('/Users/ray/Documents/Project/Conflict')
-++>>>>>>> 7e88895eb2f726b4200969406897fd4e2516e88f
-diff --cc test.py
-index 7545c70,f0397a9..0000000
---- a/test.py
-+++ b/test.py
-@@@ -1,9 -1,9 +1,14 @@@
- -from git import Repo
- +import git
-  
-++<<<<<<< HEAD
- +repo = Repo('This is a repository!!!')
- +assert not repo.bare
-++=======
-+ repo = Repo('what the hell is this?')
-+ t not repo.bare
-++>>>>>>> 7e88895eb2f726b4200969406897fd4e2516e88f
-  
-- assert not repo.is_dirty()
-+ asrt nt realkfjw;:.is_dirty()
-  print repo.untracked_files
-  
-  
-",,
-shell,16 Mar 2016 17:47:09,quit,False,,,,,
-web_search,16 Mar 2016 17:57:48,git status,True,status,False,"On branch master
+decision_tree,21 Mar 2016 02:18:14,"['git', 'status']",True,status,False,"On branch master
 Your branch and 'origin/master' have diverged,
 and have 1 and 1 different commit each, respectively.
   (use ""git pull"" to merge the remote branch into yours)
@@ -350,46 +309,8 @@ Untracked files:
 	log.csv
 
 ",,
-web_search,16 Mar 2016 17:57:53,git diff,True,diff,False,"diff --cc menu.py
-index 8836289,a99cc9e..0000000
---- a/menu.py
-+++ b/menu.py
-@@@ -1,4 -1,4 +1,11 @@@
-++<<<<<<< HEAD
- +import sys, time, os
- +from drwdese import Repo
- +
- +repo = Repo('/Users/ray/Documents/Project/Conflict')
-++=======
-+ import sys, os
-+ from wolegequ import Repo
-+ jsakdlfj
-+ repo = qepo('/Users/ray/Documents/Project/Conflict')
-++>>>>>>> 7e88895eb2f726b4200969406897fd4e2516e88f
-diff --cc test.py
-index 7545c70,f0397a9..0000000
---- a/test.py
-+++ b/test.py
-@@@ -1,9 -1,9 +1,14 @@@
- -from git import Repo
- +import git
-  
-++<<<<<<< HEAD
- +repo = Repo('This is a repository!!!')
- +assert not repo.bare
-++=======
-+ repo = Repo('what the hell is this?')
-+ t not repo.bare
-++>>>>>>> 7e88895eb2f726b4200969406897fd4e2516e88f
-  
-- assert not repo.is_dirty()
-+ asrt nt realkfjw;:.is_dirty()
-  print repo.untracked_files
-  
-  
-",,
-web_search,16 Mar 2016 17:57:55,quit,False,,,,,
-email,16 Mar 2016 17:58:27,git status,True,status,False,"On branch master
+decision_tree,21 Mar 2016 02:18:19,"['explorer', '.']",False,,True,,,
+decision_tree,21 Mar 2016 02:19:49,"['git', 'status']",True,status,False,"On branch master
 Your branch and 'origin/master' have diverged,
 and have 1 and 1 different commit each, respectively.
   (use ""git pull"" to merge the remote branch into yours)
@@ -412,84 +333,18 @@ Untracked files:
 	log.csv
 
 ",,
-email,16 Mar 2016 17:58:29,git diff,True,diff,False,"diff --cc menu.py
-index 8836289,a99cc9e..0000000
---- a/menu.py
-+++ b/menu.py
-@@@ -1,4 -1,4 +1,11 @@@
-++<<<<<<< HEAD
- +import sys, time, os
- +from drwdese import Repo
- +
- +repo = Repo('/Users/ray/Documents/Project/Conflict')
-++=======
-+ import sys, os
-+ from wolegequ import Repo
-+ jsakdlfj
-+ repo = qepo('/Users/ray/Documents/Project/Conflict')
-++>>>>>>> 7e88895eb2f726b4200969406897fd4e2516e88f
-diff --cc test.py
-index 7545c70,f0397a9..0000000
---- a/test.py
-+++ b/test.py
-@@@ -1,9 -1,9 +1,14 @@@
- -from git import Repo
- +import git
-  
-++<<<<<<< HEAD
- +repo = Repo('This is a repository!!!')
- +assert not repo.bare
-++=======
-+ repo = Repo('what the hell is this?')
-+ t not repo.bare
-++>>>>>>> 7e88895eb2f726b4200969406897fd4e2516e88f
-  
-- assert not repo.is_dirty()
-+ asrt nt realkfjw;:.is_dirty()
-  print repo.untracked_files
-  
-  
-",,
-email,16 Mar 2016 17:58:30,quit,False,,,,,
-decision_tree,17 Mar 2016 15:27:13,git add read.txt,True,add,True,"The following paths are ignored by one of your .gitignore files:
-read.txt
-Use -f if you really want to add them.
-",True,yes
-decision_tree,17 Mar 2016 15:27:40,quit,False,,,,,yes
-decision_tree,17 Mar 2016 17:42:12,git branch,True,branch,False,"* master
-",,
-decision_tree,17 Mar 2016 17:42:18,git checkout test,True,checkout,True,"error: pathspec 'test' did not match any file(s) known to git.
-",False,no
-decision_tree,17 Mar 2016 17:42:35,git branch -a,True,branch,False,"* master
-  remotes/origin/HEAD -> origin/master
-  remotes/origin/master
-",,
-decision_tree,17 Mar 2016 18:02:24,quit,False,,,,,yes
-decision_tree,17 Mar 2016 18:02:36,git checkout test,True,checkout,True,"error: pathspec 'test' did not match any file(s) known to git.
-",False,no
-decision_tree,17 Mar 2016 18:03:34,quit,False,,,,,no
-decision_tree,17 Mar 2016 18:03:45,git checkout test,True,checkout,True,"error: pathspec 'test' did not match any file(s) known to git.
-",True,yes
-decision_tree,17 Mar 2016 18:12:01,quit,False,,,,,yes
-decision_tree,17 Mar 2016 18:12:09,git checkout test,True,checkout,True,"error: pathspec 'test' did not match any file(s) known to git.
-",True,yes
-decision_tree,17 Mar 2016 18:15:53,quit,False,,,,,yes
-decision_tree,17 Mar 2016 21:38:23,git status,True,status,False,"On branch master
+decision_tree,21 Mar 2016 02:20:03,"['git', 'add', 'menu.py', 'test.py']",True,add,False,,,
+decision_tree,21 Mar 2016 02:20:09,"['git', 'status']",True,status,False,"On branch master
 Your branch and 'origin/master' have diverged,
 and have 1 and 1 different commit each, respectively.
   (use ""git pull"" to merge the remote branch into yours)
-You have unmerged paths.
-  (fix conflicts and run ""git commit"")
+All conflicts fixed but you are still merging.
+  (use ""git commit"" to conclude merge)
 
 Changes to be committed:
 
 	modified:   README.md
-
-Unmerged paths:
-  (use ""git add <file>..."" to mark resolution)
-
-	both modified:   menu.py
-	both modified:   test.py
+	modified:   test.py
 
 Untracked files:
   (use ""git add <file>..."" to include in what will be committed)
@@ -497,23 +352,45 @@ Untracked files:
 	log.csv
 
 ",,
-decision_tree,17 Mar 2016 21:38:31,git checkout test,True,checkout,True,"error: pathspec 'test' did not match any file(s) known to git.
+decision_tree,21 Mar 2016 02:20:29,"['git', 'commit', '-m', '""resolved Conflict"" ']",True,commit,False,"[master ba56b38] ""resolved Conflict""
+",,
+decision_tree,21 Mar 2016 02:20:35,"['git', 'push']",True,push,True,"To https://github.com/YihuanDong/Conflict.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/YihuanDong/Conflict.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ",True,yes
-decision_tree,17 Mar 2016 21:38:37,quit,False,,,,,yes
-decision_tree,17 Mar 2016 23:41:17,"git commit -m ""test commit""",True,commit,True,"error: commit is not possible because you have unmerged files.
-hint: Fix them up in the work tree, and then use 'git add/rm <file>'
-hint: as appropriate to mark resolution and make a commit.
-U	menu.py
-U	test.py
-fatal: Exiting because of an unresolved conflict.
+decision_tree,21 Mar 2016 02:21:06,"['git', 'pull']",True,pull,True,"From https://github.com/YihuanDong/Conflict
+   7e88895..f2e501f  master     -> origin/master
+ * [new branch]      test       -> origin/test
+error: The following untracked working tree files would be overwritten by merge:
+	log.csv
+Please move or remove them before you can merge.
+Aborting
 ",False,yes
-decision_tree,18 Mar 2016 01:13:58,quit,False,,,,,yes
-decision_tree,18 Mar 2016 01:14:05,"git commit -m ""test commit""",True,commit,True,"error: commit is not possible because you have unmerged files.
-hint: Fix them up in the work tree, and then use 'git add/rm <file>'
-hint: as appropriate to mark resolution and make a commit.
-U	menu.py
-U	test.py
-fatal: Exiting because of an unresolved conflict.
-",True,yes
-decision_tree,18 Mar 2016 01:14:34,quit,False,,,,,yes
-decision_tree,18 Mar 2016 17:58:04,quit,False,,,,,yes
+decision_tree,21 Mar 2016 02:21:51,"['git', 'add', 'log.csv']",True,add,False,"warning: LF will be replaced by CRLF in log.csv.
+The file will have its original line endings in your working directory.
+",,
+decision_tree,21 Mar 2016 02:22:04,"['git', 'status']",True,status,False,"On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 4 different commits each, respectively.
+  (use ""git pull"" to merge the remote branch into yours)
+Changes to be committed:
+  (use ""git reset HEAD <file>..."" to unstage)
+
+	new file:   log.csv
+
+",,
+decision_tree,21 Mar 2016 02:22:19,"['git', 'commit', '-m', '""commit log file"" ']",True,commit,False,"[master 712b3f7] ""commit log file""
+ 1 file changed, 519 insertions(+)
+ create mode 100644 log.csv
+warning: LF will be replaced by CRLF in log.csv.
+The file will have its original line endings in your working directory.
+",,
+decision_tree,21 Mar 2016 02:22:25,"['git', 'pull']",True,pull,True,"Auto-merging log.csv
+CONFLICT (add/add): Merge conflict in log.csv
+Automatic merge failed; fix conflicts and then commit the result.
+error: failed to create path
